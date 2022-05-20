@@ -1,0 +1,93 @@
+input[type=text].number_input{
+    width: 45px;
+    height: 45px;
+    font-size:30px;
+    padding:5px 0;
+    border:1px solid #aaa;
+    border-radius:10px;
+    text-align:center;
+}
+input[type=text].number_show{
+    width: 30px;
+    height: 30px;
+    font-size:25px;
+    padding:1px;
+    border:1px solid #aaa;
+    text-align:center;
+}
+.flex-container{
+    display: flex;
+    width: available;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-item{
+    padding:50px;
+}
+.arrow{
+    font-size: 50px;
+}
+.control_panel{
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    resize: none;
+}
+.small_textarea{
+    font-size:14px;
+}
+
+.popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.4);
+    overflow: hidden;
+    position: fixed;
+    top:0px;
+}
+.popup_content{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.popup .popup_content{
+    margin: 3% auto auto auto;
+    width:600px;
+    height: 500px;
+    padding:10px;
+    background-color: #b9c9fe;
+    border-radius:5px;
+    box-shadow: 0 0 15px #000;
+    color: #191970;
+}
+
+th {
+    font-size: 20px;
+    font-weight: normal;
+    background: #b9c9fe;
+    color: #039;
+
+}
+td {
+
+    font-size: 20px;
+    background: #e8edff;
+    color: #669;
+}
+tr:hover td {
+    background: #ccddff;
+}
+
+.popup_select, .popup_date{
+    font-size: 16px;
+}
+.cross{
+    font-family: FreeMono, monospace;
+    font-size: 25px;
+    position: fixed;
+    transform: translate(575px, -50%);
+}
+.export_btn{
+    width: 100%;
+}
